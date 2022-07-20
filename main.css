@@ -1,42 +1,42 @@
-.container {
-  height: 100vh;
+*{
+  direction: rtl;
+}.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 31rem;
+}
+.first_row{
   display: flex;
   flex-direction: row;
-  border: 2px dashed goldenrod;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
+  /* justify-content: space-between; */
+  /* width: 50rem; */
 }
-
-.item {
-  background-color: bisque;
-  border: 2px solid red;
-  min-height: 15rem;
-  font-size: 2rem;
-  order: 2;
-  flex-grow: 1;
+.seconde_row{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* width: 50rem; */
 }
-
-.item-1 {
-  font-size: 8rem;
+.gamer{
+  max-width: 30rem;
 }
-
-.item-2 {
-  font-size: 4rem;
+.xiaomi{
+  margin-right: 0.5rem;
+  height: 15rem;
+  max-width:14.5rem;
 }
-
-.item-4 {
-  font-size: 3rem;
-  flex-grow: 2;
-  align-self: flex-start;
+.google{
+  margin-right: 0.5rem;
+  max-width: 14.5rem;
+  height: 15rem;
 }
-
-.item-5 {
-  order: 1;
-  flex-grow: 3.5;
+.laptop{
+  height: 15rem;
+  max-width: 15rem;
 }
-
-.item-8 {
-  align-self: flex-end;
+.facebook {
+  margin-right: 0.5rem;
+  height: 15rem;
+  max-width: 14.5rem;
 }
